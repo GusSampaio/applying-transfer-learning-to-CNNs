@@ -1,5 +1,5 @@
 # Aplicando Transfer Learning em Redes Neurais
-## Objetivo - Descrição em English 🇺🇸
+## Objetivo - Descrição em Português 🇧🇷
 O projeto apresenta um estudo de caso focalizado em duas Redes Neurais Convolucionais (CNNs) destinadas à classificação de imagens, abordando diferentes estratégias de construção. Uma das CNNs é desenvolvida integralmente "do zero", enquanto a segunda adota Transfer Learning, aproveitando uma rede pré-treinada. O objetivo é criar modelos eficazes para a classificação de imagens de gatos e cachorros.
 
 ## Visão Geral
@@ -20,7 +20,8 @@ Para executar este projeto, basta instalar as bibliotecas presentes no arquivo '
 Contribuições são bem-vindas! Se você identificar melhorias, problemas ou tiver sugestões, sinta-se à vontade para contribuir para este projeto.
 
 # Applying Transfer Learning to Neural Networks
-## Objective - Description in Portuguese 🇧🇷
+
+## Objective - Description in English 🇺🇸
 The project presents a case study focused on two Convolutional Neural Networks (CNNs) intended for image classification, addressing different construction strategies. One of the CNNs is developed entirely "from scratch", while the second adopts Transfer Learning, taking advantage of a pre-trained network. The goal is to create effective models for classifying images of cats and dogs.
 
 ##Overview
