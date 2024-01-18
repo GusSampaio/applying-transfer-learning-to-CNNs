@@ -1,3 +1,25 @@
+# Applying Transfer Learning to Neural Networks
+
+## Objective - Description in English 🇺🇸
+The project presents a case study focused on two Convolutional Neural Networks (CNNs) intended for image classification, addressing different construction strategies. One of the CNNs is developed entirely "from scratch", while the second adopts Transfer Learning, taking advantage of a pre-trained network. The goal is to create effective models for classifying images of cats and dogs.
+
+## Overview
+### 1st approach
+
+In the "from scratch" approach, the first CNN is built with convolutional, pooling and dense layers, being specifically trained to discriminate between images of cats and dogs. This process involves a specific definition of architecture and parameters, seeking to extract discriminative characteristics.
+
+### 2nd approach
+On the other hand, the second CNN adopts Transfer Learning, a strategy that capitalizes on knowledge previously acquired by a pre-trained network. In this approach, parts of the network are frozen, while the final layers are tuned for the specific task of cat and dog image classification. The technique aims to optimize the use of useful representations already learned by the pre-existing network.
+
+### Assessment
+Both models are evaluated on their ability to efficiently distinguish between the two classes of animals. The analysis includes performance analyzes such as accuracy and loss, seeking to compare the results obtained by different approaches.
+
+### Project Execution
+To run this project, simply install the libraries present in the 'requirements.txt' file or upload the transfer_learning.ipynb file to Goggle Colab.
+
+### Contributions
+Contributions are welcome! If you identify improvements, problems or suggestions, please feel free to contribute to this project.
+
 # Aplicando Transfer Learning em Redes Neurais
 ## Objetivo - Descrição em Português 🇧🇷
 O projeto apresenta um estudo de caso focalizado em duas Redes Neurais Convolucionais (CNNs) destinadas à classificação de imagens, abordando diferentes estratégias de construção. Uma das CNNs é desenvolvida integralmente "do zero", enquanto a segunda adota Transfer Learning, aproveitando uma rede pré-treinada. O objetivo é criar modelos eficazes para a classificação de imagens de gatos e cachorros.
@@ -18,25 +40,3 @@ Para executar este projeto, basta instalar as bibliotecas presentes no arquivo '
 
 ### Contribuições
 Contribuições são bem-vindas! Se você identificar melhorias, problemas ou tiver sugestões, sinta-se à vontade para contribuir para este projeto.
-
-# Applying Transfer Learning to Neural Networks
-
-## Objective - Description in English 🇺🇸
-The project presents a case study focused on two Convolutional Neural Networks (CNNs) intended for image classification, addressing different construction strategies. One of the CNNs is developed entirely "from scratch", while the second adopts Transfer Learning, taking advantage of a pre-trained network. The goal is to create effective models for classifying images of cats and dogs.
-
-##Overview
-### 1st approach
-
-In the "from scratch" approach, the first CNN is built with convolutional, pooling and dense layers, being specifically trained to discriminate between images of cats and dogs. This process involves a specific definition of architecture and parameters, seeking to extract discriminative characteristics.
-
-### 2nd approach
-On the other hand, the second CNN adopts Transfer Learning, a strategy that capitalizes on knowledge previously acquired by a pre-trained network. In this approach, parts of the network are frozen, while the final layers are tuned for the specific task of cat and dog image classification. The technique aims to optimize the use of useful representations already learned by the pre-existing network.
-
-### Assessment
-Both models are evaluated on their ability to efficiently distinguish between the two classes of animals. The analysis includes performance analyzes such as accuracy and loss, seeking to compare the results obtained by different approaches.
-
-### Project Execution
-To run this project, simply install the libraries present in the 'requirements.txt' file or upload the transfer_learning.ipynb file to Goggle Colab.
-
-### Contributions
-Contributions are welcome! If you identify improvements, problems or suggestions, please feel free to contribute to this project.
